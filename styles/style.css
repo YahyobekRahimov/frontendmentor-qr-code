@@ -46,7 +46,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 800px;
+  gap: 50px;
 }
 
 main {
@@ -81,5 +83,19 @@ p {
   border-radius: 8px;
 }
 
-@media (max-width: 375px) {
+.attribution {
+  font-size: 1.5rem;
+  opacity: 0.8;
+}
+
+.attribution a {
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  border-bottom: 2px black dotted;
+}
+
+.attribution a:hover {
+  color: blue;
+  border-color: blue;
 }
